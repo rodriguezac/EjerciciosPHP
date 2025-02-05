@@ -1,7 +1,7 @@
 <?php
 //Ejercicios de Lógica con Estructuras de Control y Funciones en PHP
 
-
+//FUNCIONES
 // 1. Problema de la serie Fibonacci
 function generarFibonacci($n) {
     $serie = [0, 1];
@@ -11,7 +11,7 @@ function generarFibonacci($n) {
     return array_slice($serie, 0, $n);
 }
 
-// 2. Problema de números Primos
+// 2. Problema de Números Primos
 function esPrimo($num) {
     if ($num < 2) return false;
     for ($i = 2; $i <= sqrt($num); $i++) {
@@ -53,7 +53,7 @@ function imprimirPiramide($altura) {
     }
 }
 
-// Ejecución
+// EJECUCIÓN
 echo "1. Serie Fibonacci: ";
 print_r(generarFibonacci(20));
 
